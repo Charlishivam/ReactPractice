@@ -1,10 +1,21 @@
 import React from 'react';
+import { Col } from '../style/Style';
+import Form from './From';
+
 
 function About() {
+    function handleSubmit() {
+        console.log("hello");
+      }
     return (
-        <div>
+       
+    <div>
+        <Col col={9}>
             <h1>About Page</h1>
-        </div>
+            <Form handleSubmit={handleSubmit} name="employeeID" />
+
+        </Col> 
+    </div> 
     );
 }
 

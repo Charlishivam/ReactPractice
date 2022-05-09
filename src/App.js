@@ -6,6 +6,7 @@ import About from './component/About';
 import List from './component/List';
 
 import Sidebar from './component/Sidebar';
+import From from './component/From';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" name="Home" element={<Home />} />
         <Route exact path="/about" name="About" element={<About />} />
         <Route exact path="/list" name="List" element={<List />} />
+       
         <Route exact path="/*" name="404Page" element={<h1>404 page</h1>} />
       </Routes>
         
