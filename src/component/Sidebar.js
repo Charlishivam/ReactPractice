@@ -19,6 +19,9 @@ function Sidebar() {
             <li>
               <Link to="/list">List</Link>
             </li>
+            <li>
+              <Link to="/redux">Redux</Link>
+            </li>
 
            
           </ul>
